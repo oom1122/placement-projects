@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color:white;
+}
+nav{
+    width: 100%;
+    height:70px;
+    background-color:burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .list a{
+    text-decoration: none;
+    padding: 35px 15px 56px 29px;
+}
+nav .list{
+    list-style: none;
+    display: flex;
+}
+nav .btn{
+    background-color:burlywood;
+    color:red;
+}
+nav .btn button{
+    background-color:whitesmoke;
+    color:blue;
+    border-radius: 5px;
+
+}
+.list li a:hover{
+ color: black;    
+}
