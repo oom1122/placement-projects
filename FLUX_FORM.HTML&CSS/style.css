@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+.animal{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: orange;
+}
+.animal_video{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.animal_image{
+    height: 10px;
+     margin-top: 30px;
+     margin-left: 30px;
+     margin-right: 20px;
+}
+.animal_details{
+    margin-top: 80px;
+}
+.animal_image audio{
+    
+    margin-right: 20px;
+    margin-left: -20px;
+   ;
+}
+*{
+    margin: 0;
+}
+.tree{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:white;
+}
+.tree_video{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.tree_image{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.tree_image audio{
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.tree_details{
+    margin-top: 80px;
+}
+.peacock{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: green;
+}
+.peacock_video{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.peacock_image{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.peacock_image audio{
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.peacock_details{
+    margin-top: 80px;
+}
