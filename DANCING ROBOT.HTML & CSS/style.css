@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tittle{
+    margin-top: 100px;
+}
+.robot{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.all_head{
+    width: 190px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.head{
+    margin: 0 auto;
+    width: 170px;
+    height: 170px;
+
+    background-color: red;
+    margin-bottom: 5px;
+    border-radius: 50% 50% 30% 30%;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.left_ear{
+    width: 10px;
+    height: 25px;
+    background-color: black;
+    margin-top: 80px;
+    border-radius: 10px 0px 0px 10px;
+}
+.right_ear{
+    width: 10px;
+    height: 25px;
+    background-color:black;
+    margin-top: 80px;
+    border-radius: 0px 10px 10px 0px;
+}
+.nose{
+    width: 10px;
+    height: 20px;
+    background-color:black;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 90px;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+    display: flex;
+}
+.eyes{
+    display: flex;
+    justify-content: space-around;
+
+}
+.left_eyes{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+.right_eyes{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+.middle{
+    height: 190px;
+    width: 240px;
+    margin: 0 auto;
+    justify-content: space-around;
+     display: flex;
+}
+
+.left_hand{
+    width: 30px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 30px;
+}
+.middle_body{
+     width: 170px;
+     height: 190px;
+     background-color: red;
+     border-radius: 35px;
+}
+.right_hand{
+     width: 30px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: red;
+}
+.lower{
+    width: 130px;
+    height: 110px;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+}
+.left_leg{
+    width: 30px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: red;
+}
+.right_leg{
+    width: 30px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: red;
+}
+.robot:hover .head,
+.robot:hover .left_hand,
+.robot:hover .right_hand,
+.robot:hover .middle_body,
+.robot:hover .left_leg,
+.robot:hover .right_leg,
+.robot:hover .left_ear,
+.robot:hover .right_ear,
+.robot:hover .nose{
+
+    background-color:rgb(79, 211, 34)
+}
+.robot:hover .left_eyes,
+.robot:hover .right_eyes,
+.robot:hover .nose{
+    background-color: white;
+
+}
+.robot:hover .head{
+    width: 190px;
+    transition: background-color 0.5s ease-in-out ;
+    animation-name:  head-position;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes head-position{
+    0%{
+        width: 170px;
+        transform: rotate(0deg);
+    }
+    5%{
+        width: 180px;
+        transform: rotate(10deg);
+    }
+    75%{
+        width: 195px;
+        transform: rotate(0deg);
+    }
+  
+    100%{
+        width: 170px;
+        transform: rotate(10deg);
+    }
+}
+.robot:hover .left_hand{
+    transition: background-color 0.5s ease-in-out;
+    animation-name: left_hand_position;
+     animation-iteration-count: infinite;
+    animation-duration: 0.350s;
+}
+@keyframes left_hand_position{
+    0%{
+         width: 35px;
+         height: 110px;
+         transform:rotate(0deg);
+    }
+    50%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(70deg);
+    }
+    75%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(0deg);
+    }
+    100%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+}
+.robot:hover .right_hand{
+    transition: background-color 0.5s ease-in-out;
+    animation-name: right_hand_position;
+    animation-iteration-count: infinite;
+    animation-duration: 0.350s;
+}
+@keyframes right_hand_position{
+    0%{
+         width: 35px;
+         height: 110px;
+         transform:rotate(0deg);
+    }
+    50%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+    75%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(0deg);
+    }
+    100%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+}
+.robot:hover .body{
+    transition: background-color 0.5s ease-in-out;
+    animation-name: body_position;
+     animation-iteration-count: infinite;
+    animation-duration: 0.350s;
+}
+@keyframes body_position{
+    0%{
+         width: 35px;
+         height: 110px;
+         transform:rotate(0deg);
+    }
+    50%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(70deg);
+    }
+    75%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(0deg);
+    }
+    100%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+}
+.robot:hover .right_hand{
+    transition: background-color 0.5s ease-in-out;
+    animation-name: right_hand_position;
+    animation-iteration-count: infinite;
+    animation-duration: 0.350s;
+}
+@keyframes right_hand_position{
+    0%{
+         width: 35px;
+         height: 110px;
+         transform:rotate(0deg);
+    }
+    50%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+    75%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(0deg);
+    }
+    100%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+}
+.robot:hover .right_leg{
+    transition: background-color 0.5s ease-in-out;
+    animation-name: right_leg_position;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes right_leg_position{
+    0%{
+         width: 35px;
+         height: 110px;
+         transform:rotate(0deg);
+    }
+    50%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+    75%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(0deg);
+    }
+    100%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+}
+.robot:hover .left_leg{
+    transition: background-color 0.5s ease-in-out;
+    animation-name: left_leg_position;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes left_leg_position{
+    0%{
+         width: 35px;
+         height: 110px;
+         transform:rotate(0deg);
+    }
+    50%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(70deg);
+    }
+    75%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(0deg);
+    }
+    100%{
+         width: 35px;
+         height: 110px;
+         transform: rotate(-70deg);
+    }
+}
