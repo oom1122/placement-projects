@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: auto;
+}
+.all{
+    background-color:black;
+    margin-top: 200px;
+    margin-right: 1350px;
+    margin-left: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 300px;
+    display: grid;
+   
+}
+.first{
+     margin-left: 30px;
+     margin-top: 40px;
+     display: grid;
+     gap: 10px;
+     grid-template-columns: repeat(4,50px);
+
+}
+.first button{
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: wheat;
+
+}
+.calc input{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+     margin-top: 20px;
+}
