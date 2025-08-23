@@ -1,0 +1,48 @@
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .log {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+  }
+  
+  .log input, .log button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .log button {
+    background-color: rgb(14, 135, 190);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .log button:hover {
+    background-color: rgb(10, 100, 140);
+  }
+  
+  #result {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success { background-color: green; color: white; }
+  .failed { background-color: red; color: white; }
